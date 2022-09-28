@@ -18,7 +18,7 @@ public class Obstaculos : MonoBehaviour
       while (true)
       {
        int randomIndex = Random.Range(0, obstacles.Length);
-       float minTime = 0.8f;
+       float minTime = 1.0f;
        float maxTime = 1.8f;
        float randomTime = Random.Range(minTime, maxTime);
 

@@ -5,7 +5,7 @@ using UnityEngine;
 public class Movimiento : MonoBehaviour
 {
 
-    public int fuerzaDeSalto = 1;
+    public int fuerzaDeSalto = 3;
     public bool estaSaltando;
 
     void Start()
