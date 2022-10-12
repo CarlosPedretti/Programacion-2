@@ -4,14 +4,9 @@ using UnityEngine;
 
 public class Scroll : MonoBehaviour
 {
-    private float velocidadPiso = 8f;
-    void Start()
-    {
-        
-    }
 
     void Update()
     {
-      transform.Translate(Vector3.left * velocidadPiso * Time.deltaTime);
+      transform.Translate(Vector3.left * GameManager.Instance.GetScrollSpeed() * Time.deltaTime);
     }
 }

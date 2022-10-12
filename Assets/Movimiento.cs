@@ -29,6 +29,13 @@ public class Movimiento : MonoBehaviour
         {
             estaSaltando = false;
         }
+
+        if (collision.gameObject.CompareTag("Obstaculo"))
+        {
+            GameManager.Instance.ShowGameOverScreen();
+            Time.timeScale = 0f;
+        }
     }
-        
+
+
 }
