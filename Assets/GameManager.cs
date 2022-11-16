@@ -1,6 +1,9 @@
 using UnityEngine;
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine.SceneManagement;
 using TMPro;
+using UnityEngine.Audio;
 
 public class GameManager : MonoBehaviour
 {
@@ -65,6 +68,5 @@ public class GameManager : MonoBehaviour
         float speedDivider = 10f;
         scrollSpeed = initialScrollSpeed + timer / speedDivider;
     }
-
 
 }
